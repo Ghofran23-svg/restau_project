@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    background:#e9eef5;
+    font-family:Arial;
+}
+
+.retour{
+    position:absolute;
+    top:20px;
+    right:20px;
+    text-decoration:none;
+    background:#4da3ff;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.retour:hover{
+    background:#2d8cff;
+}
+
+/* cadre */
+.box{
+    width:500px;
+    margin:120px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+h4{
+    color:#666;
+    margin-bottom:25px;
+}
+
+/* navbar */
+nav{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    text-decoration:none;
+    background:#4da3ff;
+    color:white;
+    padding:10px 15px;
+    border-radius:8px;
+}
+
+nav a:hover{
+    background:#2d8cff;
+}
