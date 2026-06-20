@@ -58,3 +58,100 @@ nav a{
 nav a:hover{
     background:#2d8cff;
 }
+
+
+
+
+
+.menu{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+.menu li{
+    background:#f5f7fa;
+    margin:10px 0;
+    padding:12px 15px;
+    border-radius:8px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    font-size:18px;
+    color:#333;
+}
+
+.menu span{
+    font-weight:bold;
+    color:#4da3ff;
+}
+
+
+
+
+
+
+body{
+    margin:0;
+    background:#e9eef5;
+    font-family:Arial;
+}
+
+.retour{
+    position:absolute;
+    top:20px;
+    right:20px;
+    text-decoration:none;
+    background:#4da3ff;
+    color:white;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.retour:hover{
+    background:#2d8cff;
+}
+
+.box{
+    width:500px;
+    margin:120px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+    text-align:center;
+}
+
+h1{
+    margin-bottom:15px;
+    color:#333;
+}
+
+p{
+    color:#555;
+    line-height:1.7;
+    font-size:18px;
+}
+
+
+
+
+
+
+.contact{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+.contact li{
+    background:#f5f7fa;
+    margin:10px 0;
+    padding:12px 15px;
+    border-radius:8px;
+
+    font-size:18px;
+    color:#333;
+}
